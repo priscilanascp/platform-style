@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled from 'styled-components';
 
 export const Container = styled.div`
   display: flex;
@@ -6,19 +6,22 @@ export const Container = styled.div`
   background-color: black;
   font-size: 20px;
   color: white;
+  font-family: 'Josefin Sans';
   padding: 10px;
   cursor: pointer;
   border-radius: 10px;
   margin: 0 15px 20px;
 
  > svg {
-      margin: 0 20px;
+   margin: 0 13rem;
+
   } 
 
   &:hover {
-    background: linear-gradient(to left,#e85e3f , #c51616);
+    background: gray;
+    backdrop-filter: blur;
   }
 
-
-
 `;
+
+

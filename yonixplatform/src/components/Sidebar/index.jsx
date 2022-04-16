@@ -1,5 +1,5 @@
 import React from 'react'
-import { Container, Content } from './styles'
+import { Container, Content, } from './styles'
 import {
     FaTimes,
     FaHome,
@@ -16,6 +16,8 @@ import SidebarItem from '../SidebarItem'
 
 
 
+
+
 const Sidebar = ({ active }) => {
 
     const closeSidebar = () => {
@@ -23,17 +25,21 @@ const Sidebar = ({ active }) => {
     }
 
     return (
+     
         <Container sidebar={active}>
+            
             <FaTimes onClick={closeSidebar} />
+            
             <Content>
+              
                 <SidebarItem Icon={FaHome} Text="Home" />
-                <SidebarItem Icon={FaChartBar} Text="Statistics" />
-                <SidebarItem Icon={FaUserAlt} Text="Users" />
-                <SidebarItem Icon={FaEnvelope} Text="Mail" />
-                <SidebarItem Icon={FaRegCalendarAlt} Text="Calendar" />
-                <SidebarItem Icon={FaIdCardAlt} Text="Employees" />
-                <SidebarItem Icon={FaRegFileAlt} Text="Reports" />
-                <SidebarItem Icon={FaRegSun} Text="Settings" />
+                <SidebarItem Icon={FaChartBar} Text="Estatisticas" />
+                <SidebarItem Icon={FaUserAlt} Text="Clientes" />
+                <SidebarItem Icon={FaEnvelope} Text="E-mail" />
+                <SidebarItem Icon={FaRegCalendarAlt} Text="Calendário" />
+                <SidebarItem Icon={FaIdCardAlt} Text="Funcionários" />
+                <SidebarItem Icon={FaRegFileAlt} Text="Relatórios" />
+                <SidebarItem Icon={FaRegSun} Text="Configuração" />
             
             </Content>
         </Container>
