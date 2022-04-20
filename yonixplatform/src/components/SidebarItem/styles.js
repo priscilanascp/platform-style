@@ -21,6 +21,7 @@ export const Container = styled.div`
     background: #706e6e;
     backdrop-filter: blur;
   }
+  
 
   
 `;

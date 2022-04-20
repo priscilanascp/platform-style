@@ -41,6 +41,11 @@ export const Container = styled.div`
         }
     }
 
+    @media(max-width: 800px) {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
 
 `
 export const Content =   styled.div`
