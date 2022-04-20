@@ -20,8 +20,10 @@ const Header = () => {
             <FaBars onClick={showSidebar} />
             {sidebar && <Sidebar active={setSidebar} />}
             <img src={logo} alt="logo" />
+           
             <h1>YONIX</h1>
             <ul>
+                
                 <li>Serviços</li>
                 <li>Produtos</li>
                 <li>Contato</li>

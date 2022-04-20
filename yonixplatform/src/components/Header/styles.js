@@ -26,18 +26,18 @@ export const Container = styled.div `
     img {
      height: 8vh;
      margin-left: 80px;
-     background: #fcfcfc;
+     background: #fff;
      border-radius: 40px;
     }
 
 
    h1 {
        color: white;
-       font-family: 'Roboto Slab', solid;
+       font-family: 'Oswald', solid;
        font-weight: bold;
        font-size: 70px;
-       margin-top: 450px;
-       margin-left: 100px;
+       margin-top: 500px;
+       margin-left: 20px;
        color: #E53935;
        letter-spacing: 1rem;
 
@@ -71,7 +71,7 @@ export const Container = styled.div `
    li {
        color: white;
        list-style: none;
-       font-family: 'Mukta Mahee';
+       font-family: 'Oswald';
        font-size: 36px;
        display: flex;
        justify-content: space-between;
@@ -89,7 +89,7 @@ export const Container = styled.div `
 
   &:hover {
     
-  color: #e85e3f;
+  color: #EF5350;
   }
 }
 
