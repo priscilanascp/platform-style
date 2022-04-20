@@ -3,13 +3,13 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background-color: black;
-  font-size: 20px;
+  background: linear-gradient(195deg, #EF5350, #E53935);
+  font-size: 16px;
   color: white;
-  font-family: 'Josefin Sans';
+  font-family: 'Varela Round';
   padding: 10px;
   cursor: pointer;
-  border-radius: 10px;
+  border-radius: 0.375rem;
   margin: 0 15px 20px;
 
  > svg {
@@ -18,10 +18,11 @@ export const Container = styled.div`
   } 
 
   &:hover {
-    background: gray;
+    background: #706e6e;
     backdrop-filter: blur;
   }
 
+  
 `;
 
 

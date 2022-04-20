@@ -2,11 +2,11 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    background: rgb(197 86 21 / 57%);
+    background: #d96d6d85;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(8.5px);
     position: fixed;
-    border-radius: 10px;
+    border-radius: 3px;
     height: 100%;
     top: 0px;
     right: 0px;
@@ -25,7 +25,10 @@ export const Container = styled.div`
         &:hover {
         color: #e85e3f;
     }
+    
     }
+
+    
 
     @keyframes showSidebar {
         from {
@@ -37,6 +40,8 @@ export const Container = styled.div`
             width: 300px;
         }
     }
+
+
 `
 export const Content =   styled.div`
     margin-top: 100px;

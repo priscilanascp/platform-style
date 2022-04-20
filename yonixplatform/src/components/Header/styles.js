@@ -3,8 +3,10 @@ import styled from 'styled-components';
 export const Container = styled.div `
     height: 80px;
     display: flex;
-    background: black;
+    background: #706e6e;
     box-shadow: 0 0 20px 3px;
+
+    
 
    > svg {
         position: fixed;
@@ -12,25 +14,49 @@ export const Container = styled.div `
         width: 30px;
         height: 30px;
         margin-top: 25px;
-        margin-left: 1280px;
+        margin-left: 1800px;
         cursor: pointer;
         &:hover {
         color: #e85e3f;
     }
 
-        
+    
     }
    
+    img {
+     height: 8vh;
+     margin-left: 80px;
+     background: #fcfcfc;
+     border-radius: 40px;
+    }
+
 
    h1 {
        color: white;
-       font-family: 'Montserrat', solid;
+       font-family: 'Roboto Slab', solid;
        font-weight: bold;
-       font-size: 40px;
-       margin-top: 350px;
-       margin-left: 80px;
-       color: #e85e3f;
+       font-size: 70px;
+       margin-top: 450px;
+       margin-left: 100px;
+       color: #E53935;
        letter-spacing: 1rem;
+
+       animation-name: fade;
+       animation-duration: 900ms;
+   
+    @keyframes fade {
+      from {
+        opacity: 0;
+        transform: scale(0.2);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1)
+      }
+    }
+    
+ 
+
    }
 
    ul {
@@ -45,7 +71,8 @@ export const Container = styled.div `
    li {
        color: white;
        list-style: none;
-       font-family: 'Josefin Sans';
+       font-family: 'Mukta Mahee';
+       font-size: 36px;
        display: flex;
        justify-content: space-between;
        margin: 0 1rem;
@@ -66,20 +93,16 @@ export const Container = styled.div `
   }
 }
 
-`;
-
-export const Footer = styled.div`
-footer {
-  text-align: center;
-  margin-top: 520px;
-  color: #e85e3f;
-  
-
-}
-footer span {
-  font-family: 'Josefin Sans';
-  font-weight: bold;
-  color: #e85e3f;
+@media screen and (max-width: 360px) {
+    ul, li, h1 {
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background: #808080;
+        border-radius: 1px;
+    }
 }
 
 `
