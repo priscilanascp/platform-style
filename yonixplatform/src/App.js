@@ -1,21 +1,19 @@
 import './App.css';
-import BgImage from './video/background-img.mp4'
+import Dashboard from './components/Dashboard';
 import Header from './components/Header'
 
 
 
 function App() {
   return (
-    <><div className="App">
-      <video autoPlay loop muted>
-        <source src={BgImage} type="video/mp4" />
-      </video>
+    <><><div className="App">
+
+
+
     </div>
+
+      <Header /></><Dashboard /></>
     
-    <Header /></>
-    
-   
- 
   );
 }
 

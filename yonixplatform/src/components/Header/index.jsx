@@ -1,42 +1,45 @@
-import React, { useState } from 'react'
-import { Container, } from './styles'
-import { FaBars } from 'react-icons/fa'
-import { FcServices, FcShop, FcCustomerSupport, FcAbout } from "react-icons/fc";
-import Sidebar from '../Sidebar'
-import logo from '../../assets/logo.png'
-
-
-
-
+import React, { useState } from "react";
+import { Container } from "./styles";
+import { FaBars } from "react-icons/fa";
+import {
+  FcHome,
+  FcServices,
+  FcShop,
+  FcCustomerSupport,
+  FcAbout,
+} from "react-icons/fc";
+import Sidebar from "../Sidebar";
 
 
 const Header = () => {
-    const [sidebar, setSidebar] = useState(false)
+  const [sidebar, setSidebar] = useState(false);
 
-    const showSidebar = () => setSidebar(!sidebar)
+  const showSidebar = () => setSidebar(!sidebar);
 
-    return (
+  return (
+    
+    <Container>
+      <FaBars onClick={showSidebar} />
+      {sidebar && <Sidebar active={setSidebar} />}
+
+      <nav>
+  
         
-        <Container>
-            <FaBars onClick={showSidebar} />
-            {sidebar && <Sidebar active={setSidebar} />}
-            
-            <img src={logo} alt="logo" />
-            <h1>YONIX</h1>
-            <ul>
-                <FcServices />
-                <li>Serviços</li>
-                <FcShop />
-                <li>Produtos</li>
-                <FcCustomerSupport />
-                <li>Contato</li>
-                <FcAbout />
-                <li>Sobre</li>
-            </ul>
+      </nav>
+      <ul>
+        <FcHome />
+        <a href="#Home">Home</a>
+        <FcServices />
+        <a href="#Services">Serviços</a>
+        <FcShop />
+        <a href="Products">Produtos</a>
+        <FcCustomerSupport />
+        <a href="#Contact">Contato</a>
+        <FcAbout />
+        <a href="#About">Sobre</a>
+      </ul>
+    </Container>
+  );
+};
 
-        </Container>
-
-    )
-}
-
-export default Header
+export default Header;

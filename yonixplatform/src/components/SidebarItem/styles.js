@@ -3,7 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
   display: flex;
   align-items: center;
-  background: linear-gradient(195deg, #EF5350, #E53935);
+  background: linear-gradient(to right, #1e3c72, #2a5298);
   font-size: 16px;
   color: white;
   font-family: 'Varela Round';
@@ -18,9 +18,10 @@ export const Container = styled.div`
   } 
 
   &:hover {
-    background: #706e6e;
+    background: #000;
     backdrop-filter: blur;
   }
+  
   
 
   

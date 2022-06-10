@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 
-    background: #d96d6d85;
+    background: #fcfcfc29;
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
     backdrop-filter: blur(8.5px);
     position: fixed;
@@ -23,7 +23,7 @@ export const Container = styled.div`
         margin-left: 210px;
         cursor: pointer;
         &:hover {
-        color: #e85e3f;
+        color:#2a5298;
     }
     
     }
@@ -45,6 +45,8 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     position: relative;
+
+    
 }
 
 `
