@@ -1,17 +1,13 @@
 import styled from "styled-components";
 
 export const Container = styled.div`
-.graphBox {
-
+  .graphBox {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     padding: 20px;
     column-gap: 30px;
-    padding:50px;
+    padding: 50px;
   }
-
-  
-  
 
   .graphBox .box-1 {
     align-items: center;
@@ -27,11 +23,10 @@ export const Container = styled.div`
     cursor: pointer;
 
     &:hover {
-			background: #438fff;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
-
+      background: #438fff;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-2 {
@@ -47,10 +42,10 @@ export const Container = styled.div`
     border-radius: 15px;
     cursor: pointer;
     &:hover {
-			background: #23c26f;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #23c26f;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-3 {
@@ -66,10 +61,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #cd4c46;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #cd4c46;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-4 {
@@ -85,10 +80,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #074650;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #074650;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-5 {
@@ -104,10 +99,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #183862;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #183862;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-6 {
@@ -123,10 +118,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #ffa500;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #ffa500;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-7 {
@@ -142,10 +137,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #e044a7;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #e044a7;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-8 {
@@ -161,10 +156,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #5f6b6d;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #5f6b6d;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-9 {
@@ -180,11 +175,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #f15628;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
-
+      background: #f15628;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-10 {
@@ -200,10 +194,10 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #258b92;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #258b92;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-11 {
@@ -219,14 +213,13 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #342592;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #342592;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
 
   .graphBox .box-12 {
-  
     align-items: center;
     color: #ffffff;
     font-family: "Poppins";
@@ -239,34 +232,30 @@ export const Container = styled.div`
     border-radius: 15px;
 
     &:hover {
-			background: #256b92;
-			box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-			transform: translateY(-0.25em);
-		}
+      background: #256b92;
+      box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+      transform: translateY(-0.25em);
+    }
   }
-
 
   .divider-1 {
     display: flex;
-    column-gap:30px;
-    margin:20px;
-    margin-left: 300px;
-    text-align: center;
-    
-  }
-
-  .divider-2 {
-    display: flex;
-    column-gap:30px;
+    column-gap: 30px;
     margin: 20px;
     margin-left: 300px;
     text-align: center;
   }
 
+  .divider-2 {
+    display: flex;
+    column-gap: 30px;
+    margin: 20px;
+    margin-left: 300px;
+    text-align: center;
+  }
 
- svg {
-    width:100px;
-    height:25px;
- }
-
+  svg {
+    width: 100px;
+    height: 25px;
+  }
 `

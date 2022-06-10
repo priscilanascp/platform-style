@@ -9,11 +9,10 @@ import {
   FaBullhorn,
   FaHandHoldingHeart,
   FaPhoneSlash,
-  FaFileContract, 
+  FaFileContract,
   FaUser,
   FaUserTie,
-  FaCrosshairs
-  
+  FaCrosshairs,
 } from "react-icons/fa";
 
 const Dashboard = () => {
@@ -22,59 +21,61 @@ const Dashboard = () => {
       <div className="graphBox">
         <div className="divider-1">
           <div className="box-1">
-            <h2>Veiculos</h2>
             <FaCar />
+            <h2>Veiculos</h2>
           </div>
 
           <div className="box-2">
-            <h2>Clientes</h2>
             <FaUsers />
+            <h2>Clientes</h2>
           </div>
           <div className="box-3">
-            <h2>Devedores</h2>
             <FaSearchDollar />
+            <h2>Devedores</h2>
           </div>
 
           <div className="box-4">
-            <h2>Agendamento</h2>
             <FaClipboardList />
+            <h2>Agendamento</h2>
           </div>
           <div className="box-5">
-            <h2>Anuais</h2>
             <FaCalendarAlt />
+            <h2>Anuais</h2>
           </div>
-
           <div className="box-6">
-            <h2>Publicidade</h2>
             <FaBullhorn />
+            <h2>Publicidade</h2>
           </div>
         </div>
         <div className="divider-2">
           <div className="box-7">
-            <h2>Cortesia</h2>
             <FaHandHoldingHeart />
+            <h2>Cortesia</h2>
           </div>
 
           <div className="box-8">
+          <FaPhoneSlash />
             <h2>Ligações Pendentes</h2>
-            <FaPhoneSlash />
+           
           </div>
           <div className="box-9">
+          <FaFileContract />
             <h2>Contratos Vencidos</h2>
-            <FaFileContract />
           </div>
 
           <div className="box-10">
+          <FaUser />
             <h2>Pessoa Física</h2>
-            <FaUser />
+            
           </div>
           <div className="box-11">
+          <FaUserTie />
             <h2>Pessoa Jurídica</h2>
-            <FaUserTie />
           </div>
           <div className="box-12">
+          <FaCrosshairs />
             <h2>Rastreadores</h2>
-            <FaCrosshairs />
+            
           </div>
         </div>
       </div>
